@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Function</title>
+</head>
+<body>
+    <h1>Berlatih Fungsi</h1>
+    <h3>Contoh Soal</h3>
+    <div id="contohJawaban">
+    </div>
+    <h3>Soal No.1</h3>
+    <div id="jawaban1">
+    </div>
+    <h3>Soal No.2</h3>
+    <div id="jawaban2">
+    </div>
+    <h3>Soal No.3</h3>
+    <div id="jawaban3">
+    </div>
+    <script>
+        // CONTOH
+        // Kamu diminta untuk membuat fungsi bernama tampilkan() untuk menampilkan "Aku Tampil" pada halaman html. // Jawaban CONTOH
+        function tampilkan() {
+            document.getElementById("contohJawaban").innerHTML = "Aku Tampil";
+        }
+        //Jalankan function
+        tampilkan();
+        
+        // Soal No. 1 Fungsi Teriak
+        function teriak() {
+            return "Halo Dunia!";
+        }
+        // Tampilkan dengan cara document.getElementById("jawaban1").innerHTML seperti di CONTOH
+        document.getElementById("jawaban1").innerHTML = teriak();
+
+        // Soal No. 2 Fungsi Kalikan
+        function kalikan(num1, num2) {
+            return num1 * num2;
+        }
+        // Tampilkan jawaban dengan cara document.getElementById("jawaban2").innerHTML seperti di CONTOH
+        document.getElementById("jawaban2").innerHTML = kalikan(5, 4);
+
+        // Soal No. 3 Fungsi buatKalimat
+        function buatKalimat(nama, umur, alamat, hobi) {
+            return "Nama saya " + nama + ", umur saya " + umur + " tahun, alamat saya di " + alamat + ", dan saya punya hobby yaitu " + hobi + "!";
+        }
+        // Tampilkan dengan cara document.getElementById("jawaban3").innerHTML seperti di CONTOH
+      
+
+// Jalankan function buatKalimat
+ var name = "John Doe"; 
+ var age = 30; 
+ var address = "Jln. Malioboro, Yogjakarta";
+  var hobby = "gaming";
+  document.getElementById("jawaban3").innerHTML = buatKalimat(name, age, address, hobby);</script>
+
+</body>
+</html>
