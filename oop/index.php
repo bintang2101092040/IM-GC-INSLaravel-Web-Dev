@@ -3,6 +3,7 @@ require_once 'frog.php';
 require_once 'ape.php';
 
 // Instance of Animal
+echo "<span style='font-size:25px; text-align:center; font-weight:bold;'>ANIMAL INFORMATION</span>" . "<br>" . "<br>";
 $sheep = new Animal("shaun");
 echo "Name : " . $sheep->name . PHP_EOL . "<br>"; // "shaun"
 echo "legs : " . $sheep->legs . PHP_EOL . "<br>"; // 4
