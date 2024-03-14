@@ -1,4 +1,4 @@
-<!-- register.blade.php -->
+
 <form method="POST" action="{{ route('register') }}">
     @csrf
 
@@ -10,7 +10,7 @@
     <input type="text" name="last_name" id="last_name" required>
     <br> <br>
 
-    <!-- Tambahkan input lainnya sesuai kebutuhan -->
+    
 
     <button type="submit">Register</button>
 </form>
