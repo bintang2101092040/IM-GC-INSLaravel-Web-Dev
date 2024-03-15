@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tugas Bintang Handevis Day 1</title>
+    <title>Intro Laravel</title>
 </head>
 <body>
     <h1>Garuda Cyber Institute</h1>
