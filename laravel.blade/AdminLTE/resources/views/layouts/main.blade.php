@@ -449,6 +449,17 @@
               </li> --}}
             </ul>
           </li>
+
+          <li class="nav-item">
+            <a href="cast" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Cast
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            
+          </li>
           {{-- <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
             <a href="pages/calendar.html" class="nav-link">
