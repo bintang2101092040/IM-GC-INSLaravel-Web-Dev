@@ -45,7 +45,8 @@ class CastController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $cast = Cast::findOrFail($id);
+        return view('cast.show', compact('cast'));
     }
 
     /**
